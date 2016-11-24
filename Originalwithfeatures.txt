@@ -1,0 +1,55 @@
+Calculating sneaky path from 6 to 3.
+Following matrix shows the shortest distances between every pair of vertices
+1   1   4   1   3   1   
+5   2   2   3   3   2   
+5   5   3   3   3   3   
+4   4   4   4   3   2   
+5   5   5   5   5   2   
+5   6   6   6   3   6   
+Following matrix shows the shortest distances between every pair of vertices
+0   9   0   31   0   12   
+0   0   60   0   0   52   
+0   0   0   24   132   10   
+17   26   46   0   0   0   
+68   43   12   14   0   0   
+0   16   42   8   0   0   
+Following matrix shows the shortest path between every pair of vertices
+                   1                1, 2          1, 2, 5, 3             1, 6, 4             1, 2, 5                1, 6
+          2, 5, 3, 1                   2             2, 5, 3             2, 5, 4                2, 5          2, 5, 3, 6
+                3, 1                3, 2                   3          3, 2, 5, 4             3, 2, 5                3, 6
+                4, 1                4, 2          4, 2, 5, 3                   4             4, 2, 5             4, 1, 6
+             5, 3, 1             5, 3, 2                5, 3                5, 4                   5             5, 3, 6
+             6, 4, 1                6, 2          6, 2, 5, 3                6, 4             6, 2, 5                   6
+Following matrix shows the average distances, per edge, between every pair of vertices
+                   0                 9.0                 7.0                10.0                 4.5                12.0
+                 4.0                   0                 6.0                 7.0                 0.0                7.33
+                 0.0                 0.0                   0                4.67                 0.0                10.0
+                17.0                26.0               12.67                   0                13.0                14.5
+                 6.0                 6.0                12.0                14.0                   0                11.0
+                12.5                16.0                9.33                 8.0                 8.0                   0
+Following matrix shows the shortest distances between every pair of vertices
+0   9   12   12   9   12   
+12   0   12   14   0   12   
+0   0   0   14   0   10   
+17   26   26   0   26   17   
+12   12   12   14   0   12   
+17   16   16   8   16   0   
+Following matrix shows the shortest distances between every pair of vertices
+0   9   0   8   0   12   
+0   0   0   0   0   0   
+0   0   0   0   0   10   
+17   26   0   0   0   12   
+0   0   12   14   0   10   
+8   16   0   8   0   0   
+
+Here is that sneakypath.
+[6, 2, 5, 3]
+
+The edge with the lowest number of other cars in the sneaky path is.
+0
+
+The edge with the highest number of other cars in the sneaky path is.
+16
+
+The average number of other cars on the sneaky path is.
+9.333333333333334

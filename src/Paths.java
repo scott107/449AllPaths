@@ -1,7 +1,8 @@
 
+// Data transfer object
 public class Paths {
 	
-	Paths(int be, int en, int fl){
+		Paths(int be, int en, int fl){
 		
 		begin = be;
 		end = en;
